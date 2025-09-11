@@ -52,3 +52,13 @@
 
 
 
+
+// 4:rounding off a number means adjusting it to the nearest whole number or specified decimal place for simplicity.
+// const roundoff = (num,ndigits) => {
+//    let fixed = num.toFixed(ndigits);
+//    let converted = Number(fixed);
+//    return converted;
+// }
+
+
+
