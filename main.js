@@ -109,3 +109,23 @@
 //    }
 // }
 // console.log(removeSpecialCharacters("Hello@ World! 123 #$"))
+
+
+
+
+
+// 7: return the sum of squers of first n natural number
+// const sumOfSquares = (n) => {
+//    let res = 0;
+//    let squers = 1;
+//    for(let i = 1; i <= n ; i++){
+//      squers = i * i 
+//      res += squers
+//    }
+// }
+
+
+
+
+
+
