@@ -62,3 +62,26 @@
 
 
 
+
+
+// 5:write a function to convert a string to title case.
+const convertToTitleCase = (str) => {
+   let res = ""
+   let capitalizeNext = true;
+   for(let i = 0; i < str.length; i++){
+      let char = str[i];
+
+      if(char == " "){
+      capitalizeNext = true
+      }
+      else if {
+         if(capitalizeNext){
+            res = res + char.toUpperCase()
+            capitalizeNext = false
+         } 
+      }
+       else {
+            res += char.toLowerCase()
+       }
+   }
+}
