@@ -65,23 +65,47 @@
 
 
 // 5:write a function to convert a string to title case.
-const convertToTitleCase = (str) => {
-   let res = ""
-   let capitalizeNext = true;
-   for(let i = 0; i < str.length; i++){
-      let char = str[i];
+// const convertToTitleCase = (str) => {
+//    let res = ""
+//    let capitalizeNext = true;
+//    for(let i = 0; i < str.length; i++){
+//       let char = str[i];
 
-      if(char == " "){
-      capitalizeNext = true
-      }
-      else if {
-         if(capitalizeNext){
-            res = res + char.toUpperCase()
-            capitalizeNext = false
-         } 
-      }
-       else {
-            res += char.toLowerCase()
-       }
-   }
-}
+//       if(char == " "){
+//       capitalizeNext = true
+//       }
+//       else if {
+//          if(capitalizeNext){
+//             res = res + char.toUpperCase()
+//             capitalizeNext = false
+//          } 
+//       }
+//        else {
+//             res += char.toLowerCase()
+//        }
+//    }
+// }
+
+
+
+
+
+
+// 6:write a function to remove special charcter from a string
+// const removeSpecialCharacters = (str) => {
+//    let res = "";
+
+//    for(let i = 0; i < str.length; i++){
+//       let char = str[i];
+
+//       if(
+//          (char <= "a" && char >= "z") ||
+//          (char <= "A" && char >= "Z") ||
+//          (char <= "0" && char >= "9") ||
+//          char === "  "
+//       ){
+//          res += char;
+//       }
+//    }
+// }
+// console.log(removeSpecialCharacters("Hello@ World! 123 #$"))
