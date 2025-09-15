@@ -1,3 +1,5 @@
+// EASY
+
 // 1:write a function to calculate the hypotenuse of a right triangle.
 // const hypotenuse = (a,b) => {
 //  let hyp = 0;
@@ -129,3 +131,24 @@
 
 
 
+// MEDIUM
+
+// 8: write a function to repeat vowels in a string
+// const repeatVowels = (str) => {
+//    let vowels = "aouieAOUIE";
+//    let newStr = "";
+   
+//    for (let i = 0; i < str.length; i++) {
+//       let char = str[i];
+
+//       if(char === 'a' || char === 'o' || char === 'u' || char === 'i' || char === 'e' ||
+//         char === 'A' || char === 'O' || char === 'U' || char === 'I' || char === 'E') {
+//             newStr += char + char;
+//       }
+//          else {
+//             newStr += char;
+//          }
+//    }
+//    return newStr;
+// }
+// console.log(repeatVowels("java"));
