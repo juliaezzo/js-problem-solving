@@ -169,3 +169,30 @@
 // }
 
 // console.log(numbers)
+
+
+
+
+
+
+
+// 10:write a function to find the first non repeated char in a string 
+// const firstUniqueChar = (str) => {
+//    for(let i = 0; i < str.length; i++) {
+//      let uniqe = str[i];
+//      let isRepeated = false;
+
+//      for(let j = 0; j < str.length; j++) {
+//        if(i !== j && uniqe === str[j]) {
+//          isRepeated = true;
+//          break;
+//        }
+//      }
+
+//      if(!isRepeated) {
+//       return uniqe;
+//      }
+//    }
+//    return null;
+// }
+// console.log(firstUniqueChar("swiss"));
