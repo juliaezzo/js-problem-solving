@@ -152,3 +152,20 @@
 //    return newStr;
 // }
 // console.log(repeatVowels("java"));
+
+
+
+
+
+
+
+
+// 9:write a function to find the second largest number in an array
+// const numbers = [4, 10, 50];
+
+// const findSecondLargest = (arr) => {
+// const orderNumbers =numbers.sort((a,b) => a - b);
+//   return orderNumbers[1];
+// }
+
+// console.log(numbers)
